@@ -2,37 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Favorite Movies</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <a href="#main">Skip to main content</a>
+  <a href="#main" class="skip-link">Skip to main content</a>
 
   <header>
-    <h1>My Top 5 Favorite Movies</h1>
+    <h1>My Top 6 Favorite Movies</h1>
   </header>
 
   <main id="main">
-    <p>I love watching movies. Here are my top 5:</p>
+    <p>I love watching movies. Here are my top 6:</p>
     
     <ul>
-      <li><a href="https://www.rophim.me/xem-phim/doraemon-nobita-va-ban-giao-huong-dia-cau.fZwLOBWJ?ver=2">Nobita và Bản Giao Hưởng Địa Cầu(movie 1)</a></li>
-      <li><a href="https://www.rophim.me/xem-phim/doraemon-nobita-va-vung-dat-ly-tuong-tren-bau-troi.9ScwAbWf?ver=2">Nobita và Vùng Đất Lý Tưởng Trên Bầu Trời(movie 2)
-</a></li>
-      <li><a href="https://www.rophim.me/phim/doraemon-nobita-va-vien-bao-tang-bao-boi.UlJG2bwr">Nobita và Viện Bảo Tàng Bảo Bối(movie 3)</a></li>
+      <li><a href="https://www.rophim.me/xem-phim/doraemon-nobita-va-ban-giao-huong-dia-cau.fZwLOBWJ?ver=2">
+        Nobita và Bản Giao Hưởng Địa Cầu
+      </a></li>
+      <li><a href="https://www.rophim.me/xem-phim/doraemon-nobita-va-vung-dat-ly-tuong-tren-bau-troi.9ScwAbWf?ver=2">
+        Nobita và Vùng Đất Lý Tưởng Trên Bầu Trời
+      </a></li>
+      <li><a href="https://www.rophim.me/phim/doraemon-nobita-va-vien-bao-tang-bao-boi.UlJG2bwr">
+        Nobita và Viện Bảo Tàng Bảo Bối
+      </a></li>
+      <li><a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-27-ngoi-sao-5-canh-1-trieu-do.UonkFbSX?ver=1"> 
+        Conan Movie 27: Ngôi Sao 5 Cánh 1 Triệu Đô
+      </a></li> 
+      <li><a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-25-nang-dau-halloween.5fF7Qgqz?ver=1"> 
+        Conan Movie 25: Nàng Dâu Halloween
+      </a></li>
+      <li><a href="https://www.rophim.me/xem-phim/tham-tu-lung-danh-conan-movie-20-con-ac-mong-den-toi.hyTQRYo4?ver=1"> 
+        Conan Movie 20: Cơn Ác Mộng Đen Tối
+      </a></li>
     </ul>
 
     <h2>Movie Posters</h2>
-    <img src="https://static.nutscdn.com/vimg/300-0/65c725d8293ec55dd6c6b2afce6628b5.jpg" alt="Movie 1"><br/>
-    <p> movie 1 </p>
-    <img src="https://static.nutscdn.com/vimg/300-0/434cf88295fc5624ff307f9a3e2a83b2.jpg" alt="Movie 2"><br/>
-    <p> movie 2 </p>
-    <img src="https://static.nutscdn.com/vimg/300-0/40f858b3ffbf3cb4ef0c53f9874a13b4.webp" alt="Movie 3"><br/>
-    <p> movie 3 </p>
+
+    <div id="image">Hover over an image below to display here.</div>
+
+    <div class="gallery-container">
+      <div class="movie-item">
+        <img class="preview" src="doraemon1.webp" alt="Movie 1: Nobita và Bản Giao Hưởng Địa Cầu - A heartwarming adventure where Doraemon and friends discover the power of music">
+        <p>Nobita và Bản Giao Hưởng Địa Cầu</p>
+      </div>
+
+      <div class="movie-item">
+        <img class="preview" src="doreamon2.webp" alt="Movie 2: Nobita và Vùng Đất Lý Tưởng Trên Bầu Trời - An exciting journey to a utopian world in the sky">
+        <p>Nobita và Vùng Đất Lý Tưởng Trên Bầu Trời</p>
+      </div>
+
+      <div class="movie-item">
+        <img class="preview" src="doreamon3.webp" alt="Movie 3: Nobita và Viện Bảo Tàng Bảo Bối - A treasure hunt adventure in a mysterious museum">
+        <p>Nobita và Viện Bảo Tàng Bảo Bối</p>
+      </div>
+
+      <div class="movie-item">
+        <img class="preview" src="conan 1.webp" alt="Conan Movie 27: Ngôi Sao 5 Cánh 1 Triệu Đô - Detective Conan's latest thrilling mystery case">
+        <p>Conan Movie 27: Ngôi Sao 5 Cánh 1 Triệu Đô</p>
+      </div>
+
+      <div class="movie-item">
+        <img class="preview" src="conan2.webp" alt="Conan Movie 25: Nàng Dâu Halloween - A spooky Halloween mystery for Detective Conan">
+        <p>Conan Movie 25: Nàng Dâu Halloween</p>
+      </div>
+
+      <div class="movie-item">
+        <img class="preview" src="conan3.webp" alt="Conan Movie 20: Cơn Ác Mộng Đen Tối - A dark nightmare mystery that challenges Detective Conan">
+        <p>Conan Movie 20: Cơn Ác Mộng Đen Tối</p>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <a href="#">Back to top</a>
+    <a href="#main">Back to top</a>
   </footer>
+
+ 
+  <script src="./script.js"></script>
 </body>
 </html>
